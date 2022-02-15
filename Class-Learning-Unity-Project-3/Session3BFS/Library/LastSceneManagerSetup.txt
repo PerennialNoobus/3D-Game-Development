@@ -1,5 +1,0 @@
-sceneSetups:
-- path: Assets/Session3BFS.unity
-  isLoaded: 1
-  isActive: 1
-  isSubScene: 0
