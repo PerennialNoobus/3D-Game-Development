@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{B710DCD5-E840-6C4C-2B31-EE879C03A12E}</ProjectGuid>
+    <ProjectGuid>{DFA0F364-18D4-C528-95EE-6AA417C2FEA7}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -54,6 +54,11 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Assets\MouseLook.cs" />
+    <Compile Include="Assets\Interaction.cs" />
+    <Compile Include="Assets\Door.cs" />
+    <Compile Include="Assets\Health.cs" />
+    <Compile Include="Assets\DamageTrigger.cs" />
+    <Compile Include="Assets\PlayerController.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

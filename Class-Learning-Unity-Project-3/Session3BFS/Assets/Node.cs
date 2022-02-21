@@ -7,7 +7,7 @@ public class Node : MonoBehaviour
     public Node[] parents;
     public Node[] children;
 
-    private void test()
+    private void Test()
     {
         if (children.Length > 0)
         {
