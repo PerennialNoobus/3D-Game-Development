@@ -13,6 +13,6 @@ public class Door : Interactable
     public override void Activate()
     {
         Debug.Log("Open le door!");
-    anim.SetBool(("openDoor"), anim.GetBool("openDoor"));
+        anim.SetBool("openDoor", !anim.GetBool("openDoor"));
     }
 }
