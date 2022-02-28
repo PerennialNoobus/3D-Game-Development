@@ -5,9 +5,9 @@ This is a
 multi-line
 comment
 """
-var_a = 2
-var_b = 3.5
-var_c = "string"
+##var_a = 2
+##var_b = 3.5
+##var_c = "string"
 
 def sum(a, b):
     return a + b
@@ -41,13 +41,100 @@ def sum(a, b):
 #    elif(user_input == 2 or user_input == 3):
 #        print("2 or 3 has been input.")
 
-animals = ["fish", "bird", "bear", "dog", "cat", "unicorn", "dragon"]
-
-for x in range(len(animals)): #loop for the amount of elements in animals
-
-    if (animals[x] == "unicorn" or animals[x] == "dragon"): #compare current animal to dragon and unicorn
-        print(animals[x] + " does not exist.") #is an animal that isn't real
-    else:
-        print(animals[x] + " is a real animal.") #is a real animal
+##animals = ["fish", "bird", "bear", "dog", "cat", "unicorn", "dragon"]
+##
+##for x in range(len(animals)): #loop for the amount of elements in animals
+##    if (animals[x] == "unicorn" or animals[x] == "dragon"): #compare current animal to dragon and unicorn
+##        print(animals[x] + " does not exist.") #is an animal that isn't real
+##    else:
+##        print(animals[x] + " is a real animal.") #is a real animal
         
-        
+##q = False        
+##while(q == False):
+##    print("Program is running")
+##    user_input = input("Would you like to quit?")
+##    if (user_input == "Y"):
+##        q = True
+
+##animals_a = {"fish", "bird", "bear", "dog", "cat", "unicorn", "dragon"}
+##
+##for animal in animals_a:
+##    print(animal)
+##
+##animals_b = ("fish", "bird", "bear", "dog", "cat", "unicorn", "dragon")
+##for animal in animals_b:
+##    print(animal)
+##
+##for X in range(len(animals_b)):
+##    print(str(X) + " " + animals_b[X])
+
+##content = "This is a bunch of content."
+##content += "\nThis is some more content."
+##
+##file = open("test.txt", "w") #opening the file stream in "write" mode
+##file.write(content + " This is a bunch of test text.") #writing text to a file
+##file.close() #closing the file stream
+##
+##file = open("test.txt", "r") #opening the file stream in "read" mode
+##print(file.read()) #reading the content and printing to console
+##file.close() #closing the file stream
+##
+##file = open("test.txt", "a") #opening the file stream in "append" mode
+##file.write("This is some extra stuff that has been added.") #adding more content
+##file.close() #closing the file stream
+
+collection = ["a", "b", "c", "d", "e", "f", "g"]
+
+def linear_search(search_term):
+    for x in collection: #for every element in "collection" array
+        if(x == str(search_term)): #compare element value to search parameter
+            return True #return True because term has been found
+    return False #if the for loop ends, return False
+
+print(linear_search("c"))
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
